@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PROCESADOR SEGMENTADO CON CORTOCIRCUITOS Prediccion de modificar el secuenciamiento: Fichero Fuente LAB6/PROC_SEG_ModSecu_relI_PreSecu/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/Ersec/CODIGO/RErsec.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PROCESADOR SEGMENTADO CON CORTOCIRCUITOS Prediccion de modificar el secuenciamiento
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b8ff7ea0be8e357f336fa7aa1df92a3a.html">LAB6</a></li><li class="navelem"><a class="el" href="dir_4b79a6e029e3b842ea70f717e5709eae.html">PROC_SEG_ModSecu_relI_PreSecu</a></li><li class="navelem"><a class="el" href="dir_f7f752ca3359dcda07584e9d39d17866.html">PROCESADOR</a></li><li class="navelem"><a class="el" href="dir_8acd7535bc06dfcec3fcc7b33f42c967.html">CAMINO_DATOS</a></li><li class="navelem"><a class="el" href="dir_dc9fbe8b62b0613ed5837a8d2c07b9ef.html">USecuen</a></li><li class="navelem"><a class="el" href="dir_d782e39bc80a79488d425a851b220285.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_544332efbc0d0149f05ba94750528495.html">Ersec</a></li><li class="navelem"><a class="el" href="dir_35282538f8e847c2d947f7dc741bd738.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">RErsec.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="RErsec_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classRErsec.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classRErsec.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classErsec.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classRErsec.html#a2edc34402b573437d5f25fa90ba4013e">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classErsec.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.numeric_std.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classRErsec.html#a1de3d6a72279acdc8f85b56c5cfe12cd">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classRErsec.html#a9ba79191d29a85e638dc8edd1fb43209">   11</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classRErsec.html#abc8b422e8f371ccf9f75c0760380e65d">   12</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcomponentes__secuenciamiento__PreSecu__pkg.html">componentes_secuenciamiento_PreSecu_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classRErsec.html#ad167b3da67e3106d0153fdea480d5164">   13</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classRegDes__pkg.html">RegDes_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classRErsec.html">   15</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classRErsec.html">RErsec</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classRErsec.html#a9a2054ec7f63792c3956fe7264bbd941">   16</a></span>&#160;   <span class="keywordflow">port</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classRErsec.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classRErsec.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classRErsec.html#a8455d4375b7fc0d9d99399815d38c73c">I</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classRErsec.html#a1b13d09ca129ce60fce5b83275626997">   17</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classRErsec.html#a1b13d09ca129ce60fce5b83275626997">opSEC</a></span><span class="vhdlchar">:</span>   <span class="keywordflow">in</span>  <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a4174d708ca689db00e88f8821876aabe">st_opSEC</a></span>;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classRErsec.html#ad5992d9b81cc22af7739120e0b19bcfc">   18</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classRErsec.html#ad5992d9b81cc22af7739120e0b19bcfc">ErPre</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classRErsec.html#a6563382fe1fa5131848c37cdddb50208">   19</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classRErsec.html#a6563382fe1fa5131848c37cdddb50208">msecuseg</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="comment">std_logic</span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">RErsec</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classRErsec_1_1comporta.html">   22</a></span>&#160;<span class="keywordflow">architecture</span> comporta <span class="keywordflow">of</span> <a class="code" href="classRErsec.html">RErsec</a> is</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classRErsec_1_1comporta.html#a513b33277feea6d516899df1919a1613">   23</a></span>&#160;<span class="keywordflow">signal</span> <span class="vhdlchar"><a class="code" href="classRErsec_1_1comporta.html#a513b33277feea6d516899df1919a1613">opSEC_A4</a></span><span class="vhdlchar">:</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__pkg.html#a4174d708ca689db00e88f8821876aabe">st_opSEC</a></span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;RA4_opSEC: <a class="code" href="classRDI__N.html">RDI_N</a> <span class="keywordflow">generic</span> <span class="keywordflow">map</span> (<a class="code" href="classRDI__N.html#a7e9b108aec9080d73ad0366eae860fd1">tam</a> =&gt; <a class="code" href="classcte__tipos__deco__camino__pkg.html#a3938e434913fedc2046d54b1a8d45ca4">num_opSEC</a><span class="vhdlchar">)</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;         <span class="keywordflow">port</span> <span class="keywordflow">map</span> (<a class="code" href="classRDI__N.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a> =&gt; <a class="code" href="classRErsec.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a>, <a class="code" href="classRDI__N.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a> =&gt; <a class="code" href="classRErsec.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a>, <a class="code" href="classRDI__N.html#a8455d4375b7fc0d9d99399815d38c73c">I</a> =&gt; <a class="code" href="classRErsec.html#a8455d4375b7fc0d9d99399815d38c73c">I</a>, <a class="code" href="classRDI__N.html#ac511d7babc2829cc8eb775bf655e1710">e</a> =&gt; <a class="code" href="classRErsec.html#a1b13d09ca129ce60fce5b83275626997">opSEC</a>, <a class="code" href="classRDI__N.html#a8f40346d158c5de413750b136ee9b2f9">s</a> =&gt; <a class="code" href="classRErsec_1_1comporta.html#a513b33277feea6d516899df1919a1613">opSEC_A4</a><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;R_Ersec: <a class="code" href="classErsec.html">Ersec</a> <span class="keywordflow">port</span> <span class="keywordflow">map</span> (<a class="code" href="classErsec.html#a1b13d09ca129ce60fce5b83275626997">opSEC</a> =&gt; <a class="code" href="classRErsec_1_1comporta.html#a513b33277feea6d516899df1919a1613">opSEC_A4</a>, <a class="code" href="classErsec.html#ad5992d9b81cc22af7739120e0b19bcfc">ErPre</a> =&gt; <a class="code" href="classRErsec.html#ad5992d9b81cc22af7739120e0b19bcfc">ErPre</a>, <a class="code" href="classErsec.html#a6563382fe1fa5131848c37cdddb50208">msecuseg</a> =&gt; <a class="code" href="classRErsec.html#a6563382fe1fa5131848c37cdddb50208">msecuseg</a><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordflow">end</span>;</div><div class="ttc" id="classErsec_html_ad5992d9b81cc22af7739120e0b19bcfc"><div class="ttname"><a href="classErsec.html#ad5992d9b81cc22af7739120e0b19bcfc">Ersec.ErPre</a></div><div class="ttdeci">in ErPrestd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="Ersec_8vhd_source.html#l00015">Ersec.vhd:15</a></div></div>
+<div class="ttc" id="classRErsec_html_a6563382fe1fa5131848c37cdddb50208"><div class="ttname"><a href="classRErsec.html#a6563382fe1fa5131848c37cdddb50208">RErsec.msecuseg</a></div><div class="ttdeci">out msecusegstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RErsec_8vhd_source.html#l00019">RErsec.vhd:19</a></div></div>
+<div class="ttc" id="classRDI__N_html_a8455d4375b7fc0d9d99399815d38c73c"><div class="ttname"><a href="classRDI__N.html#a8455d4375b7fc0d9d99399815d38c73c">RDI_N.I</a></div><div class="ttdeci">in Istd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RDI__N_8vhd_source.html#l00014">RDI_N.vhd:14</a></div></div>
+<div class="ttc" id="classRErsec_html_a1b13d09ca129ce60fce5b83275626997"><div class="ttname"><a href="classRErsec.html#a1b13d09ca129ce60fce5b83275626997">RErsec.opSEC</a></div><div class="ttdeci">in opSECst_opSEC  </div><div class="ttdef"><b>Definition:</b> <a href="RErsec_8vhd_source.html#l00017">RErsec.vhd:17</a></div></div>
+<div class="ttc" id="classRErsec_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classRErsec.html#a9a2054ec7f63792c3956fe7264bbd941">RErsec.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RErsec_8vhd_source.html#l00016">RErsec.vhd:16</a></div></div>
+<div class="ttc" id="classRDI__N_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classRDI__N.html#a9a2054ec7f63792c3956fe7264bbd941">RDI_N.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RDI__N_8vhd_source.html#l00014">RDI_N.vhd:14</a></div></div>
+<div class="ttc" id="classRDI__N_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classRDI__N.html#aaaf76b3c92306baf67cc09a1ff48254d">RDI_N.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RDI__N_8vhd_source.html#l00014">RDI_N.vhd:14</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00009">param_disenyo_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classErsec_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classErsec.html#a0a6af6eef40212dbaf130d57ce711256">Ersec.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="Ersec_8vhd_source.html#l00006">Ersec.vhd:6</a></div></div>
+<div class="ttc" id="classcomponentes__secuenciamiento__PreSecu__pkg_html"><div class="ttname"><a href="classcomponentes__secuenciamiento__PreSecu__pkg.html">componentes_secuenciamiento_PreSecu_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="componentes__secuenciamiento__PreSecu__pkg_8vhd_source.html#l00013">componentes_secuenciamiento_PreSecu_pkg.vhd:13</a></div></div>
+<div class="ttc" id="classRDI__N_html"><div class="ttname"><a href="classRDI__N.html">RDI_N</a></div><div class="ttdef"><b>Definition:</b> <a href="RDI__N_8vhd_source.html#l00012">RDI_N.vhd:12</a></div></div>
+<div class="ttc" id="classRegDes__pkg_html"><div class="ttname"><a href="classRegDes__pkg.html">RegDes_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="RegDes__pkg_8vhd_source.html#l00011">RegDes_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00010">cte_tipos_deco_camino_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classRErsec_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classRErsec.html#aaaf76b3c92306baf67cc09a1ff48254d">RErsec.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RErsec_8vhd_source.html#l00016">RErsec.vhd:16</a></div></div>
+<div class="ttc" id="classErsec_html"><div class="ttname"><a href="classErsec.html">Ersec</a></div><div class="ttdef"><b>Definition:</b> <a href="Ersec_8vhd_source.html#l00013">Ersec.vhd:13</a></div></div>
+<div class="ttc" id="classRDI__N_html_a8f40346d158c5de413750b136ee9b2f9"><div class="ttname"><a href="classRDI__N.html#a8f40346d158c5de413750b136ee9b2f9">RDI_N.s</a></div><div class="ttdeci">out sstd_logic_vector(   tam- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="RDI__N_8vhd_source.html#l00016">RDI_N.vhd:16</a></div></div>
+<div class="ttc" id="classErsec_html_a6563382fe1fa5131848c37cdddb50208"><div class="ttname"><a href="classErsec.html#a6563382fe1fa5131848c37cdddb50208">Ersec.msecuseg</a></div><div class="ttdeci">out msecusegstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="Ersec_8vhd_source.html#l00016">Ersec.vhd:16</a></div></div>
+<div class="ttc" id="classRDI__N_html_ac511d7babc2829cc8eb775bf655e1710"><div class="ttname"><a href="classRDI__N.html#ac511d7babc2829cc8eb775bf655e1710">RDI_N.e</a></div><div class="ttdeci">in estd_logic_vector(   tam- 1 downto  0)  </div><div class="ttdef"><b>Definition:</b> <a href="RDI__N_8vhd_source.html#l00015">RDI_N.vhd:15</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html_a4174d708ca689db00e88f8821876aabe"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html#a4174d708ca689db00e88f8821876aabe">cte_tipos_deco_camino_pkg.st_opSEC</a></div><div class="ttdeci">std_logic_vector(   num_opSEC- 1 downto  0)   st_opSEC</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00044">cte_tipos_deco_camino_pkg.vhd:44</a></div></div>
+<div class="ttc" id="classRErsec_html_a8455d4375b7fc0d9d99399815d38c73c"><div class="ttname"><a href="classRErsec.html#a8455d4375b7fc0d9d99399815d38c73c">RErsec.I</a></div><div class="ttdeci">in Istd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RErsec_8vhd_source.html#l00016">RErsec.vhd:16</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html_a3938e434913fedc2046d54b1a8d45ca4"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html#a3938e434913fedc2046d54b1a8d45ca4">cte_tipos_deco_camino_pkg.num_opSEC</a></div><div class="ttdeci">natural  := 4 num_opSEC</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00043">cte_tipos_deco_camino_pkg.vhd:43</a></div></div>
+<div class="ttc" id="classRErsec_1_1comporta_html_a513b33277feea6d516899df1919a1613"><div class="ttname"><a href="classRErsec_1_1comporta.html#a513b33277feea6d516899df1919a1613">RErsec.comporta.opSEC_A4</a></div><div class="ttdeci">st_opSEC   opSEC_A4</div><div class="ttdef"><b>Definition:</b> <a href="RErsec_8vhd_source.html#l00023">RErsec.vhd:23</a></div></div>
+<div class="ttc" id="classRErsec_html_ad5992d9b81cc22af7739120e0b19bcfc"><div class="ttname"><a href="classRErsec.html#ad5992d9b81cc22af7739120e0b19bcfc">RErsec.ErPre</a></div><div class="ttdeci">in ErPrestd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RErsec_8vhd_source.html#l00018">RErsec.vhd:18</a></div></div>
+<div class="ttc" id="classRErsec_html"><div class="ttname"><a href="classRErsec.html">RErsec</a></div><div class="ttdef"><b>Definition:</b> <a href="RErsec_8vhd_source.html#l00015">RErsec.vhd:15</a></div></div>
+<div class="ttc" id="classRDI__N_html_a7e9b108aec9080d73ad0366eae860fd1"><div class="ttname"><a href="classRDI__N.html#a7e9b108aec9080d73ad0366eae860fd1">RDI_N.tam</a></div><div class="ttdeci">tamnatural  := 5</div><div class="ttdef"><b>Definition:</b> <a href="RDI__N_8vhd_source.html#l00013">RDI_N.vhd:13</a></div></div>
+<div class="ttc" id="classErsec_html_a1b13d09ca129ce60fce5b83275626997"><div class="ttname"><a href="classErsec.html#a1b13d09ca129ce60fce5b83275626997">Ersec.opSEC</a></div><div class="ttdeci">in opSECst_opSEC  </div><div class="ttdef"><b>Definition:</b> <a href="Ersec_8vhd_source.html#l00014">Ersec.vhd:14</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 7 de Mayo de 2019 10:23:14 para PROCESADOR SEGMENTADO CON CORTOCIRCUITOS Prediccion de modificar el secuenciamiento por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

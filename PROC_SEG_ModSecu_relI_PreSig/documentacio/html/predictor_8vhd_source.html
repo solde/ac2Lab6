@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PROCESADOR SEGMENTADO CON CORTOCIRCUITOS Prediccion en funcion del signo del literal: Fichero Fuente LAB6/PROC_SEG_ModSecu_relI_PreSig/PROCESADOR/CAMINO_DATOS/USecuen/COMPONENTES/predictor/CODIGO/predictor.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PROCESADOR SEGMENTADO CON CORTOCIRCUITOS Prediccion en funcion del signo del literal
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b8ff7ea0be8e357f336fa7aa1df92a3a.html">LAB6</a></li><li class="navelem"><a class="el" href="dir_9c57625272d1b6f7d8300de7f031a459.html">PROC_SEG_ModSecu_relI_PreSig</a></li><li class="navelem"><a class="el" href="dir_0ebeaca99c6b498072c488475e342331.html">PROCESADOR</a></li><li class="navelem"><a class="el" href="dir_6b17a02ede4790a1fc7f272dbff3dcdf.html">CAMINO_DATOS</a></li><li class="navelem"><a class="el" href="dir_750dd4774f993ddf6c29a93a55e579a0.html">USecuen</a></li><li class="navelem"><a class="el" href="dir_cb8c804cb286d3c428931c87b4ea6462.html">COMPONENTES</a></li><li class="navelem"><a class="el" href="dir_04ac672c170412c380ece19b2dc28bad.html">predictor</a></li><li class="navelem"><a class="el" href="dir_e407c2967600cd8d02a9d92979ae23a6.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">predictor.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="predictor_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2018, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classpredictor.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classpredictor.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRproc__MD__MI__C__ModSecu__relI__PreSig.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classpredictor.html#a2edc34402b573437d5f25fa90ba4013e">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRproc__MD__MI__C__ModSecu__relI__PreSig.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.numeric_std.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classpredictor.html#a1de3d6a72279acdc8f85b56c5cfe12cd">   10</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRproc__MD__MI__C__ModSecu__relI__PreSig.html#a9f49de6f5eed5b4488cba6c9cdd1c215">work</a>.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classpredictor.html#a9ba79191d29a85e638dc8edd1fb43209">   11</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRproc__MD__MI__C__ModSecu__relI__PreSig.html#a9f49de6f5eed5b4488cba6c9cdd1c215">work</a>.<a class="code" href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classpredictor.html#ac782c4d0e6d6a238ba07fc9b7e4f10fe">   12</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRproc__MD__MI__C__ModSecu__relI__PreSig.html#a9f49de6f5eed5b4488cba6c9cdd1c215">work</a>.<a class="code" href="classcte__tipos__deco__camino__ModSecu__relI__PreSig__pkg.html">cte_tipos_deco_camino_ModSecu_relI_PreSig_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classpredictor.html">   14</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classpredictor.html">predictor</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classpredictor.html#a58ff3c2d32e6bf6fd2db4954e2f797bf">   15</a></span>&#160;   <span class="keywordflow">port</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classpredictor.html#a58ff3c2d32e6bf6fd2db4954e2f797bf">inst</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#a2f340d91bb2d81cba1d248f4379190bf">tipo_inst_busq</a></span>;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classpredictor.html#a4baba6db9126d6f77149d8d26e38ddf6">   16</a></span>&#160;      <span class="vhdlkeyword">Pred</span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classcte__tipos__deco__camino__ModSecu__relI__PreSig__pkg.html#aa571fee017be58092f3e955be7ccaac3">st_Pred</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">predictor</span>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classpredictor_1_1comporta.html">   19</a></span>&#160;<span class="keywordflow">architecture</span> comporta <span class="keywordflow">of</span> <a class="code" href="classpredictor.html">predictor</a> is</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classpredictor_1_1comporta.html#a30f26e6d9e5582bc6b16b450c4e3dc26">   20</a></span>&#160;<span class="keywordflow">constant</span> <span class="vhdlchar"><a class="code" href="classpredictor_1_1comporta.html#a30f26e6d9e5582bc6b16b450c4e3dc26">signo_inmS</a></span><span class="vhdlchar">:</span> <span class="comment">integer</span><span class="vhdlchar">:=</span> <span class="vhdllogic"></span><span class="vhdllogic">31</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;   <span class="vhdlkeyword">Pred</span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classpredictor.html#a58ff3c2d32e6bf6fd2db4954e2f797bf">inst</a></span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classpredictor_1_1comporta.html#a30f26e6d9e5582bc6b16b450c4e3dc26">signo_inmS</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordflow">end</span>;</div><div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00009">param_disenyo_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classpredictor_html"><div class="ttname"><a href="classpredictor.html">predictor</a></div><div class="ttdef"><b>Definition:</b> <a href="predictor_8vhd_source.html#l00014">predictor.vhd:14</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__pkg_html"><div class="ttname"><a href="classcte__tipos__deco__camino__pkg.html">cte_tipos_deco_camino_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__pkg_8vhd_source.html#l00010">cte_tipos_deco_camino_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__ModSecu__relI__PreSig__pkg_html"><div class="ttname"><a href="classcte__tipos__deco__camino__ModSecu__relI__PreSig__pkg.html">cte_tipos_deco_camino_ModSecu_relI_PreSig_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__ModSecu__relI__PreSig__pkg_8vhd_source.html#l00012">cte_tipos_deco_camino_ModSecu_relI_PreSig_pkg.vhd:12</a></div></div>
+<div class="ttc" id="classpredictor_html_a58ff3c2d32e6bf6fd2db4954e2f797bf"><div class="ttname"><a href="classpredictor.html#a58ff3c2d32e6bf6fd2db4954e2f797bf">predictor.inst</a></div><div class="ttdeci">in insttipo_inst_busq  </div><div class="ttdef"><b>Definition:</b> <a href="predictor_8vhd_source.html#l00015">predictor.vhd:15</a></div></div>
+<div class="ttc" id="classcte__tipos__deco__camino__ModSecu__relI__PreSig__pkg_html_aa571fee017be58092f3e955be7ccaac3"><div class="ttname"><a href="classcte__tipos__deco__camino__ModSecu__relI__PreSig__pkg.html#aa571fee017be58092f3e955be7ccaac3">cte_tipos_deco_camino_ModSecu_relI_PreSig_pkg.st_Pred</a></div><div class="ttdeci">std_logic   st_Pred</div><div class="ttdef"><b>Definition:</b> <a href="cte__tipos__deco__camino__ModSecu__relI__PreSig__pkg_8vhd_source.html#l00017">cte_tipos_deco_camino_ModSecu_relI_PreSig_pkg.vhd:17</a></div></div>
+<div class="ttc" id="classRproc__MD__MI__C__ModSecu__relI__PreSig_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classRproc__MD__MI__C__ModSecu__relI__PreSig.html#a0a6af6eef40212dbaf130d57ce711256">Rproc_MD_MI_C_ModSecu_relI_PreSig.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="Rproc__MD__MI__C__ModSecu__relI__PreSig_8vhd_source.html#l00006">Rproc_MD_MI_C_ModSecu_relI_PreSig.vhd:6</a></div></div>
+<div class="ttc" id="classpredictor_1_1comporta_html_a30f26e6d9e5582bc6b16b450c4e3dc26"><div class="ttname"><a href="classpredictor_1_1comporta.html#a30f26e6d9e5582bc6b16b450c4e3dc26">predictor.comporta.signo_inmS</a></div><div class="ttdeci">integer  := 31 signo_inmS</div><div class="ttdef"><b>Definition:</b> <a href="predictor_8vhd_source.html#l00020">predictor.vhd:20</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html_a2f340d91bb2d81cba1d248f4379190bf"><div class="ttname"><a href="classparam__disenyo__pkg.html#a2f340d91bb2d81cba1d248f4379190bf">param_disenyo_pkg.tipo_inst_busq</a></div><div class="ttdeci">std_logic_vector(   tam_instruc- 1 downto  0)   tipo_inst_busq</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00022">param_disenyo_pkg.vhd:22</a></div></div>
+<div class="ttc" id="classRproc__MD__MI__C__ModSecu__relI__PreSig_html_a9f49de6f5eed5b4488cba6c9cdd1c215"><div class="ttname"><a href="classRproc__MD__MI__C__ModSecu__relI__PreSig.html#a9f49de6f5eed5b4488cba6c9cdd1c215">Rproc_MD_MI_C_ModSecu_relI_PreSig.work</a></div><div class="ttdeci">_library_ workwork</div><div class="ttdef"><b>Definition:</b> <a href="Rproc__MD__MI__C__ModSecu__relI__PreSig_8vhd_source.html#l00010">Rproc_MD_MI_C_ModSecu_relI_PreSig.vhd:10</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 7 de Mayo de 2019 10:23:14 para PROCESADOR SEGMENTADO CON CORTOCIRCUITOS Prediccion en funcion del signo del literal por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
